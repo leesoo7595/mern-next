@@ -1,18 +1,16 @@
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Link from '@/components/common/Link';
+import Table from '@/components/common/Table';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="lg">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
+          Home
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
+        <Table />
       </Box>
     </Container>
   );
